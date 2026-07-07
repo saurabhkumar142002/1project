@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web Page</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            background:#f2f2f2;
+            font-family:Arial, sans-serif;
+        }
+
+        .container{
+            width:400px;
+            margin:50px auto;
+            background:#fff;
+            padding:25px;
+            border-radius:12px;
+            text-align:center;
+            box-shadow:0 0 15px rgba(0,0,0,0.2);
+        }
+
+        img{
+            width:180px;
+            height:180px;
+            border-radius:50%;
+            object-fit:cover;
+            border:4px solid #007bff;
+            margin-bottom:20px;
+        }
+
+        h1{
+            color:#00ff73;
+            margin-bottom:10px;
+        }
+
+        h2{
+            margin-bottom:10px;
+        }
+
+        p{
+            color:#555;
+            margin-bottom:20px;
+            line-height:25px;
+        }
+
+        button{
+            background:#007bff;
+            color:red;
+            padding:10px 20px;
+            border:none;
+            border-radius:6px;
+            cursor:pointer;
+            font-size:16px;
+        }
+
+        button:hover{
+            background:#0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Hello World 👋</h1>
+
+    
+<img src="C:\Users\91620\Pictures\Saved Pictures" alt="Saurabh Kumar">
+
+    <h2>Saurabh Kumar</h2>
+
+    <p>
+        Hello! My name is <b>Saurabh Kumar</b>.<br>
+        I am learning <b>Web Development</b>.<br>
+        My goal is to become a <b>Frontend Developer</b>.
+    </p>
+
+    <button onclick="welcome()">Click Me</button>
+
+</div>
+
+<script>
+function welcome(){
+    alert("Welcome to My First Web Page 😊");
+}
+</script>
+
+</body>
+</html>
